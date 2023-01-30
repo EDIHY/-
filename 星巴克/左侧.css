@@ -1,0 +1,147 @@
+/* 通用 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-color: 255, 255, 255;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin {
+    width: 100%;
+    margin: auto;
+}
+
+/* 左侧导航 */
+.nav {
+    width: 29.7%;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+}
+
+/* 上部 */
+.nav .topnav {
+    width: 100%;
+    height: 82px;
+}
+
+.nav .topnav .image {
+    width: 36px;
+    height: 36px;
+    float: left;
+    padding: 24px;
+
+}
+
+.nav .topnav .image img {
+    width: 100%;
+}
+
+.nav .topnav ul {
+
+    float: left;
+    height: 82px;
+}
+
+.nav .topnav ul li {
+    float: left;
+    line-height: 82px;
+
+}
+
+.nav .topnav ul a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding-right: 22px;
+    color: #292929;
+    letter-spacing: 1px;
+    font-family: Arial;
+    margin-top: 1px;
+}
+
+.nav .topnav .nav-two {
+    float: right;
+    width: 24px;
+    height: 24px;
+    padding: 30px 24px 30px 0;
+}
+
+.nav .topnav .nav-two img {
+    width: 100%;
+}
+
+/* 下部 */
+.nav .nextnav {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.nav .nextnav .hh {
+    float: left;
+    width: 320px;
+    height: 137px;
+    margin: auto;
+    position: absolute;
+    left: 85px;
+    top: 50%;
+    margin-top: -65.5px;
+
+}
+
+.nav .nextnav .hh div {
+    width: 320px;
+    height: 60px;
+    padding: 0;
+}
+
+.nav .nextnav .hh h2 {
+    float: left;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-bottom: 18px;
+}
+
+.nav .nextnav .hh .span1 {
+    display: inline-block;
+    padding-right: 24px;
+    line-height: 28px;
+    height: 28px;
+    background-image: url(https://www.starbucks.com.cn/assets/icons/icon-account.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: 2em;
+}
+
+.nav .nextnav .hh .setup a {
+    font-size: 16px;
+    color: #1ab172;
+    line-height: 28px;
+}
+
+
+
+
+
+.nav .nextnav .hh .span2 {
+    display: inline-block;
+    width: 59px;
+    height: 28px;
+    border: 1px solid #1ab172;
+    text-align: center;
+    border-radius: 16px;
+}
